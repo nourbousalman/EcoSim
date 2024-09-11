@@ -31,13 +31,13 @@ To run the simulation, you’ll need Python 3.x and a few essential libraries in
 ### Running the Simulation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/nourbousalman/ecosim.git
+    cd ecosim
     ```
 
 2. Run the Python script:
     ```bash
-    python stock_price_tracker.py
+    python ecosim.py
     ```
 
 3. The simulation will automatically run for a predefined number of years (default is 100). You’ll be prompted to enter a stock symbol, and after running, the script will display visualizations showing how the global temperature and CO2 levels have changed over time.
@@ -56,12 +56,6 @@ The simulation generates two main outputs:
 
 These visualizations give insight into how different economic policies and actions affect climate change.
 
-## Example Output
-
-Below is an example of what the simulation output might look like:
-
-![Temperature and CO2 Simulation](path-to-your-image-if-you-want)
-
 ## Future Plans
 This is just the beginning! Here are some potential areas for future development:
 - **More Complex Agent Behaviors**: Implement decision-making models where agents perform cost-benefit analysis on climate actions.
@@ -70,9 +64,6 @@ This is just the beginning! Here are some potential areas for future development
 
 ## Contributing
 Contributions are welcome! Feel free to submit issues or pull requests if you have ideas for improving the simulation. Whether it's adding more features, fixing bugs, or enhancing the visualizations, your input is greatly appreciated.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 For any questions, feel free to reach out: nour.bousalman@unito.it
